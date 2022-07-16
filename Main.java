@@ -5,31 +5,6 @@ import java.util.Stack;
 
 public class Main {
 
-
-    public static void main(String[] args)
-    {
-        String str1 = "Techie Delight";
-        String str2 = "Techie Delight";
-        String str3 = "Techie Delight";
-        String str4 = "Techie Delight";
-        String str5 = "Techie Delight";
-
-        // String is immutable
-        str1 = reverse1(str1);
-        System.out.println("The reverse of the given string is: " + str1);
-        str2 = reverse2(str2);
-        System.out.println("The reverse of the given string is: " + str2);
-        str3 = reverse3(str3);
-        System.out.println("The reverse of the given string is: " + str3);
-        str4 = reverse4(str4);
-        System.out.println("The reverse of the given string is: " + str4);
-        str5 = reverse5(str5);
-        System.out.println("The reverse of the given string is: " + str5);
-
-
-    }
-
-
     // Method to reverse a string in Java using `StringBuilder`
     public static String reverse1(String str) {
         return new StringBuilder(str).reverse().toString();
