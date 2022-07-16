@@ -19,14 +19,13 @@ public class MainTest{
 	@Test
 	void reverse2Test(){
 		String str="Reverse me in reverse2";
-		String str2="";
-		String str3=null;
 		assertEquals("2esrever ni em esreveR", Main.reverse2(str),"Should be able to reverse the reverse2");
-		assertEquals("", Main.reverse2(str2),"Retrun nothing");
-		assertEquals(null, Main.reverse2(str3),"Retrun null");
-
+		String str2="";
+		String str3=null;	
+		assertEquals("", Main.reverse2(str2),"Return nothing");
+		assertEquals(null, Main.reverse2(str3),"Return null");
 	}
-	
+
 	
 	@Test
 	void reverse3Test(){
@@ -34,8 +33,8 @@ public class MainTest{
 		String str2="";
 		String str3=null;
 		assertEquals("3esrever ni em esreveR", Main.reverse3(str),"Should be able to reverse the reverse3");
-		assertEquals("", Main.reverse3(str2),"Retrun nothing");
-		assertEquals(null, Main.reverse3(str3),"Retrun null");
+		assertEquals("", Main.reverse3(str2),"Return nothing");
+		assertEquals(null, Main.reverse3(str3),"Return null");
 	}
 	
 	@Test
@@ -44,8 +43,8 @@ public class MainTest{
 		String str2="";
 		String str3=null;
 		assertEquals("4esrever ni em esreveR", Main.reverse4(str),"Should be able to reverse the reverse4");
-		assertEquals("", Main.reverse4(str2),"Retrun nothing");
-		assertEquals(null, Main.reverse4(str3),"Retrun null");
+		assertEquals("", Main.reverse4(str2),"Return nothing");
+		assertEquals(null, Main.reverse4(str3),"Return null");
 	}
 	
 	@Test
@@ -54,7 +53,7 @@ public class MainTest{
 		String str2="";
 		String str3=null;
 		assertEquals("5esrever ni em esreveR", Main.reverse5(str),"Should be able to reverse the reverse5");
-		assertEquals("", Main.reverse5(str2),"Retrun nothing");
-		assertEquals(null, Main.reverse5(str3),"Retrun null");
+		assertEquals("", Main.reverse5(str2),"Return nothing");
+		assertEquals(null, Main.reverse5(str3),"Return null");
 	}
 }
