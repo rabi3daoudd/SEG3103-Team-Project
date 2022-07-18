@@ -6,12 +6,12 @@ import java.util.Stack;
 public class Main {
 
     // Method to reverse a string in Java using `StringBuilder`
-    public static String reverse1(String str) {
+    public String reverse1(String str) {
         return new StringBuilder(str).reverse().toString();
     }
 
     // Method to reverse a string in Java using a stack and character array
-    public static String reverse2(String str)
+    public String reverse2(String str)
     {
         // base case: if the string is null or empty
         if (str == null || str.equals("")) {
@@ -42,7 +42,7 @@ public class Main {
     }
 
         // Method to reverse a string in Java using `Stack` and `StringBuilder` class
-    public static String reverse3(String str)
+    public String reverse3(String str)
     {
         // base case: if the string is null or empty
         if (str == null || str.equals("")) {
@@ -67,7 +67,7 @@ public class Main {
         return sb.toString();
     }
     // Method to reverse a string in Java using `Collections.reverse()`
-    public static String reverse4(String str)
+    public String reverse4(String str)
     {
         // base case: if the string is null or empty
         if (str == null || str.equals("")) {
@@ -94,7 +94,7 @@ public class Main {
         return builder.toString();
     }
     // Method to reverse a string in Java using `Collections.reverse()`
-    public static String reverse5(String str)
+    public String reverse5(String str)
     {
         // return if the string is null or empty
         if (str == null || str.equals("")) {
